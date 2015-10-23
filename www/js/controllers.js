@@ -1,22 +1,21 @@
 angular.module('app.controllers', [])
-  
+
 .controller('homeCtrl', function($scope) {
 
 })
-   
-.controller('fAQ&#x27;SCtrl', function($scope) {
+
+.controller('fAQSCtrl', function($scope) {
 
 })
-   
+
 .controller('tWIFNewsCtrl', function($scope) {
 
 })
-   
-.controller('aboutTUE&#x27;SCtrl', function($scope) {
+
+.controller('aboutTUESCtrl', function($scope) {
 
 })
-   
+
 .controller('linksCtrl', function($scope) {
 
 })
- 

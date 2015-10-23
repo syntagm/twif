@@ -23,7 +23,7 @@ angular.module('app.routes', [])
     .state('fAQ&#x27;S', {
       url: '/page2',
       templateUrl: 'templates/fAQS.html',
-      controller: 'fAQ&#x27;SCtrl'
+      controller: 'fAQSCtrl'
     })
 
 
@@ -43,7 +43,7 @@ angular.module('app.routes', [])
     .state('aboutTUES', {
       url: '/page4',
       templateUrl: 'templates/aboutTUES.html',
-      controller: 'aboutTUE&#x27;SCtrl'
+      controller: 'aboutTUESCtrl'
     })
 
 
