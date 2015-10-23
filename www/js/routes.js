@@ -27,6 +27,46 @@ angular.module('app.routes', [])
     })
         
       
+    
+      
+        
+    .state('tWIFNews', {
+      url: '/page3',
+      templateUrl: 'templates/tWIFNews.html',
+      controller: 'tWIFNewsCtrl'
+    })
+        
+      
+    
+      
+        
+    .state('frequentlyAskedQuestions', {
+      url: '/page4',
+      templateUrl: 'templates/frequentlyAskedQuestions.html',
+      controller: 'frequentlyAskedQuestionsCtrl'
+    })
+        
+      
+    
+      
+        
+    .state('aboutTUE', {
+      url: '/page5',
+      templateUrl: 'templates/aboutTUE.html',
+      controller: 'aboutTUECtrl'
+    })
+        
+      
+    
+      
+        
+    .state('links', {
+      url: '/page6',
+      templateUrl: 'templates/links.html',
+      controller: 'linksCtrl'
+    })
+        
+      
     ;
 
   // if none of the above states are matched, use this as the fallback
