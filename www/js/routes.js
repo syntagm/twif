@@ -7,59 +7,29 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-
-
-
+    
+      
+        
     .state('home', {
-      url: '/index',
+      url: '/page1',
       templateUrl: 'templates/home.html',
       controller: 'homeCtrl'
     })
-
-
-
-
-
-    .state('fAQ&#x27;S', {
+        
+      
+    
+      
+        
+    .state('about', {
       url: '/page2',
-      templateUrl: 'templates/fAQS.html',
-      controller: 'fAQSCtrl'
+      templateUrl: 'templates/about.html',
+      controller: 'aboutCtrl'
     })
-
-
-
-
-
-    .state('tWIFNews', {
-      url: '/page3',
-      templateUrl: 'templates/tWIFNews.html',
-      controller: 'tWIFNewsCtrl'
-    })
-
-
-
-
-
-    .state('aboutTUES', {
-      url: '/page4',
-      templateUrl: 'templates/aboutTUES.html',
-      controller: 'aboutTUESCtrl'
-    })
-
-
-
-
-
-    .state('links', {
-      url: '/page9',
-      templateUrl: 'templates/links.html',
-      controller: 'linksCtrl'
-    })
-
-
+        
+      
     ;
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/index');
+  $urlRouterProvider.otherwise('/page1');
 
 });
