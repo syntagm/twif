@@ -1,4 +1,12 @@
 {
-  "name": "twif",
-  "app_id": ""
+  "name": "TWIF2",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
